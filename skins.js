@@ -1,5 +1,5 @@
 const fs = require("fs"),
-      folderContents = fs.readdirSync("./skins"),
+      folderContents = fs.readdirSync("./"),
       pngFileNames = folderContents.filter(f => f.endsWith(".png"));
 
 if(folderContents.length !== pngFileNames.length) {
